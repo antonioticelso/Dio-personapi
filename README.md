@@ -1,7 +1,7 @@
 # Dio-personapi
 
 ### Descricao
- - 
+ - Projeto com foco na Linguagem Java
 
 ### Estrutura
  - Projeto utilizando framework Spring Boot.
