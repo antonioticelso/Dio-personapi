@@ -1,6 +1,5 @@
 package com.github.antonioelso.personapi.dto.request;
 
-import com.github.antonioelso.personapi.entity.Phone;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -37,6 +36,6 @@ public class PersonDTO {
 
     @Valid
     @NotEmpty
-    private List<Phone> phones;
+    private List<PhoneDTO> phones;
 
 }

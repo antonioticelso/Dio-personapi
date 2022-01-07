@@ -2,7 +2,6 @@ package com.github.antonioelso.personapi.cotroller;
 
 import com.github.antonioelso.personapi.dto.request.PersonDTO;
 import com.github.antonioelso.personapi.dto.response.MessageResponseDTO;
-import com.github.antonioelso.personapi.entity.Person;
 import com.github.antonioelso.personapi.exception.PersonNotFoundException;
 import com.github.antonioelso.personapi.service.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,6 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/people")
+//@AllArgsConstructor(onConstructor = @__(Autowired))
 public class PersonController {
 
     private PersonService personService;
